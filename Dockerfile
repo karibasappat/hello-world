@@ -3,5 +3,5 @@ From karibasappa/mytomcat:latest
 
 # Maintainer 
 MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /opt/
+COPY webapp/target/webapp.war /opt/
 
